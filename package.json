@@ -1,0 +1,17 @@
+{
+  "name": "student-management-ci-cd",
+  "version": "1.0.0",
+  "description": "Student Management CI/CD practical",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
